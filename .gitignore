@@ -1,0 +1,8 @@
+# Personal documents: they contain a phone number and email, so keep them out of the public repo
+resume/
+application/
+Utkarsh_Vaibhav_Resume_GS_GIR.pdf
+
+# Excel lock files and Python cache
+~$*.xlsx
+__pycache__/
