@@ -3,6 +3,8 @@
 > Independent student research for learning purposes. Not investment advice.
 > Author: Utkarsh Vaibhav · B.Tech ECE, SRM University · [LinkedIn](https://www.linkedin.com/in/utkarsh-vaibhav-76aa99300/)
 
+**Read it online:** https://utkarsh151-glitch.github.io/cgpower-research/
+
 ## The question
 
 CG Power trades at roughly 115x FY26 earnings. **What growth is the market pricing in, and is it realistic?**
@@ -28,6 +30,7 @@ CG Power trades at roughly 115x FY26 earnings. **What growth is the market prici
 | `charts/` | Charts used in the report |
 | `report/CGPower_Initiating_Coverage.pdf` | Initiating-coverage report (7 pages); HTML source alongside |
 | `report/CGPower_One_Page_Pitch.pdf` | One-page stock pitch; HTML source alongside |
+| `index.html` | Landing page for the GitHub Pages site |
 
 ## Method
 

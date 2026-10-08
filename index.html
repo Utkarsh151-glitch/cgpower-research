@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CG Power Equity Research</title>
+<meta name="description" content="Independent initiating-coverage research on CG Power and Industrial Solutions (NSE: CGPOWER): report, one-page pitch, Excel model and a Python cross-check.">
+<style>
+  :root { --navy: #1F3864; --orange: #C55A11; --ink: #1a1a1a; --muted: #5b6472; --line: #dde3ee; --tint: #eef2f9; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: Calibri, Carlito, "Segoe UI", system-ui, sans-serif; color: var(--ink); background: #fff; line-height: 1.5; }
+  main { max-width: 920px; margin: 0 auto; padding: 32px 16px 48px; }
+  .kicker { color: var(--orange); font-weight: 700; letter-spacing: .5px; text-transform: uppercase; font-size: 13px; }
+  h1 { color: var(--navy); font-size: clamp(26px, 4.5vw, 38px); line-height: 1.15; margin: 4px 0 8px; }
+  .lede { font-size: 18px; color: var(--muted); margin: 0 0 22px; }
+  .call { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin: 0 0 26px; }
+  .stat { background: var(--tint); border-radius: 10px; padding: 12px 14px; }
+  .stat b { display: block; font-size: 22px; color: var(--navy); }
+  .stat span { font-size: 13px; color: var(--muted); }
+  .stat.sell { background: var(--navy); }
+  .stat.sell b, .stat.sell span { color: #fff; }
+  figure { margin: 0 0 26px; }
+  figure img { width: 100%; height: auto; border: 1px solid var(--line); border-radius: 10px; }
+  figcaption { font-size: 13px; color: var(--muted); margin-top: 6px; }
+  h2 { color: var(--navy); font-size: 20px; border-bottom: 2px solid var(--navy); padding-bottom: 4px; margin: 28px 0 12px; }
+  .links { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 12px; }
+  .links a { display: block; border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; text-decoration: none; color: var(--ink); }
+  .links a:hover, .links a:focus-visible { border-color: var(--navy); outline: none; box-shadow: 0 0 0 3px rgba(31,56,100,.12); }
+  .links strong { color: var(--navy); display: block; }
+  .links span { font-size: 14px; color: var(--muted); }
+  footer { margin-top: 36px; padding-top: 12px; border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); }
+  footer a { color: var(--navy); }
+</style>
+</head>
+<body>
+<main>
+  <div class="kicker">Independent equity research · Initiating coverage</div>
+  <h1>CG Power and Industrial Solutions (NSE: CGPOWER)</h1>
+  <p class="lede">The price needs about 35% revenue growth a year for a decade. Initiate at SELL.</p>
+
+  <div class="call" role="list">
+    <div class="stat sell" role="listitem"><b>SELL</b><span>Rating</span></div>
+    <div class="stat" role="listitem"><b>₹402</b><span>Target price (−54%)</span></div>
+    <div class="stat" role="listitem"><b>₹879</b><span>Price, NSE close 1 Oct 2026</span></div>
+    <div class="stat" role="listitem"><b>₹934</b><span>Street average target (Outperform)</span></div>
+  </div>
+
+  <figure>
+    <img src="charts/4_reverse_dcf.png" alt="Heatmap of value per share by 10-year revenue CAGR and free-cash-flow margin; only 35–40% CAGR cells reach the share price">
+    <figcaption>Reverse DCF: value per share by 10-year revenue CAGR and FCFF margin at a 14.8% WACC. Bold cells are at or above ₹879.</figcaption>
+  </figure>
+
+  <h2>Read</h2>
+  <div class="links">
+    <a href="report/CGPower_Initiating_Coverage.html"><strong>Initiating-coverage report</strong><span>7 pages: thesis, reverse DCF, forecasts, valuation, risks</span></a>
+    <a href="report/CGPower_One_Page_Pitch.html"><strong>One-page pitch</strong><span>The call, three reasons, valuation and risks</span></a>
+    <a href="report/CGPower_Initiating_Coverage.pdf"><strong>Report (PDF)</strong><span>Print-ready version</span></a>
+    <a href="report/CGPower_One_Page_Pitch.pdf"><strong>Pitch (PDF)</strong><span>Print-ready version</span></a>
+  </div>
+
+  <h2>Model and code</h2>
+  <div class="links">
+    <a href="model/CGPower_Research_Model.xlsx"><strong>Excel model</strong><span>Historicals, segment forecast, DCF, reverse DCF, comps, commodity sensitivity</span></a>
+    <a href="https://github.com/Utkarsh151-glitch/cgpower-research/blob/main/cgpower_analysis.py"><strong>Python cross-check</strong><span>Rebuilds the valuation and checks every output against Excel</span></a>
+    <a href="https://github.com/Utkarsh151-glitch/cgpower-research"><strong>Repository</strong><span>Sources, method and verification log</span></a>
+  </div>
+
+  <footer>
+    Utkarsh Vaibhav · B.Tech ECE, SRM University · <a href="https://www.linkedin.com/in/utkarsh-vaibhav-76aa99300/">LinkedIn</a><br>
+    Independent student research for learning purposes; not investment advice or a recommendation to buy or sell any security.
+  </footer>
+</main>
+</body>
+</html>
